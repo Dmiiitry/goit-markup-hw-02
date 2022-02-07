@@ -44,8 +44,6 @@
 /*========START HEADER========*/
 .logo {
   font-family: var(--secondary-font-family);
-  font-style: normal;
-  font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -54,6 +52,17 @@
 
 .part-logo {
   color: var(--main-color);
+}
+
+.contacts-link {
+font-family: var(--primary-font-family)
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
+color: var(--secondary-text-color);
 }
 
 .nav-list {
@@ -187,7 +196,7 @@
 }
 /*========3 SECTION END========*/
 /*========PORTFOLIO START========*/
-.header-projects {
+.main-header-projects {
   display: none;
 }
 
